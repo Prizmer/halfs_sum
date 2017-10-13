@@ -22,9 +22,9 @@ namespace HalfsSum
         }
 
         DataTable dt = new DataTable();
+
         private void Form1_Load(object sender, EventArgs e)
         {
-
             DataColumn dCol = dt.Columns.Add();
             dCol.ColumnName = "colCode";
             dCol.Caption = "Код т.у.";
